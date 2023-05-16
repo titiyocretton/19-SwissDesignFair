@@ -8,3 +8,20 @@ img {
   display: block;
   max-width: 100%;
 }
+
+header, .section-personnalite {
+  background: #e3aa42;
+}
+
+footer, .section-event {
+  background: #1f1611;
+  color: #f8ecda;
+}
+
+footer img {
+  max-height: 35px;
+}
+
+main img {
+  max-width: 50%;
+}
