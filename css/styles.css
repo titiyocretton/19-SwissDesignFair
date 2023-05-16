@@ -34,7 +34,7 @@ footer, .section-event {
   justify-content: space-between;
 }
 
-.text-element {
+.container p {
   max-width: 45%;
 }
 
