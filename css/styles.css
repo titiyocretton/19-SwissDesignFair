@@ -9,6 +9,14 @@ img {
   max-width: 100%;
 }
 
+footer img {
+  max-height: 35px;
+}
+
+main img {
+  max-width: 45%;
+}
+
 header, .section-personnalite {
   background: #e3aa42;
 }
@@ -18,10 +26,13 @@ footer, .section-event {
   color: #f8ecda;
 }
 
-footer img {
-  max-height: 35px;
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-main img {
-  max-width: 50%;
+.text-element {
+  max-width: 45%;
 }
