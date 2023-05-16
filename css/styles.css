@@ -19,6 +19,7 @@ main img {
 
 header, .section-personnalite {
   background: #e3aa42;
+  padding: 0 20px;
 }
 
 footer, .section-event {
@@ -37,19 +38,16 @@ footer, .section-event {
   max-width: 45%;
 }
 
-.section-produit,
-.section-intro,
-.section-info {
-  padding: 20px;
-}
-
-header,
-.section-personnalite,
-.section-event,
+.section,
 footer {
   padding: 20px;
 }
 
 ul {
   padding-left: 20px;
+}
+
+ol {
+  list-style: none;
+  padding-left: 0;
 }
