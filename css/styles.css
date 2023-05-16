@@ -2,6 +2,17 @@ body {
   max-width: 320px;
   margin: auto;
   background: #ddd;
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 21px;
 }
 
 img {
@@ -15,6 +26,14 @@ footer img {
 
 main img {
   max-width: 45%;
+}
+
+header img {
+  border-radius: 0 0 15px 15px;
+}
+
+.section-personnalite img {
+  border-radius: 15px;
 }
 
 header, .section-personnalite {
@@ -34,7 +53,8 @@ footer, .section-event {
   justify-content: space-between;
 }
 
-.container p {
+.container p,
+.container h2 {
   max-width: 45%;
 }
 
@@ -62,4 +82,17 @@ ol {
 
 .container-event {
   display: flex;
+}
+
+.section-intro {
+  border-bottom: #e3aa42 solid 5px;
+}
+
+.section-intro .container {
+  font-size: 14px;
+}
+
+footer h2 {
+  margin-top: 0;
+  text-align: center;
 }
