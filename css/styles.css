@@ -36,3 +36,20 @@ footer, .section-event {
 .text-element {
   max-width: 45%;
 }
+
+.section-produit,
+.section-intro,
+.section-info {
+  padding: 20px;
+}
+
+header,
+.section-personnalite,
+.section-event,
+footer {
+  padding: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
